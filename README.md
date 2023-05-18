@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # shot_game
+=======
+# shooting_game
+>>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
 
 A new Flutter project.
 

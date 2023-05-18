@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="shot_game"
+=======
+        android:label="shooting_game"
+>>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

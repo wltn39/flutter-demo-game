@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+>>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -6,11 +15,14 @@ if (localPropertiesFile.exists()) {
     }
 }
 
+<<<<<<< HEAD
 def flutterRoot = localProperties.getProperty('flutter.sdk')
 if (flutterRoot == null) {
     throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
 }
 
+=======
+>>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {
     flutterVersionCode = '1'
@@ -21,12 +33,17 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
+<<<<<<< HEAD
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     namespace "com.example.shot_game"
+=======
+android {
+    namespace "com.example.shooting_game"
+>>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -45,7 +62,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId "com.example.shot_game"
+=======
+        applicationId "com.example.shooting_game"
+>>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion flutter.minSdkVersion
@@ -67,6 +88,10 @@ flutter {
     source '../..'
 }
 
+<<<<<<< HEAD
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
+=======
+dependencies {}
+>>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e

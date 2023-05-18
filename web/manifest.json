@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "shot_game",
     "short_name": "shot_game",
+=======
+    "name": "shooting_game",
+    "short_name": "shooting_game",
+>>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
