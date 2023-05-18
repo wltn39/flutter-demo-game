@@ -1,12 +1,8 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import '../../utils/ryulib/game_engine.dart';
+import '../../../utils/ryulib/game_engine.dart';
 
-<<<<<<< HEAD
-const ASTEROID_SIZE = 40.0;
-=======
 const ASTEROID_SIZE = 30.0;
->>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
 
 typedef CheckCollisionCallback = bool Function(GameControl target);
 
@@ -29,11 +25,7 @@ class Asteroids extends GameControl {
     getGameControlGroup()?.addControl(Asteroid(_x, 0, onCheckCollision));
   }
 
-<<<<<<< HEAD
-  int _relaseInterval = 300;
-=======
   int _relaseInterval = 500;
->>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
   int _term = 0;
   var _random = Random();
 }

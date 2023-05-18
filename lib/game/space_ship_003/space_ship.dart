@@ -25,14 +25,12 @@ class SpaceShip extends StatelessWidget {
     _gameEngine.start();
   }
 
-<<<<<<< HEAD
   final _gameEngine = GameEngine();
   late final _joystick;
   late final _ship;
   late final _asteroids;
 
-=======
->>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,13 +44,5 @@ class SpaceShip extends StatelessWidget {
         )
     );
   }
-
-<<<<<<< HEAD
-=======
-  final _gameEngine = GameEngine();
-  late final _joystick;
-  late final _ship;
-  late final _asteroids;
->>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
 }
 
