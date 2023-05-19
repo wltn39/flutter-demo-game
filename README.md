@@ -1,20 +1,4 @@
-<<<<<<< HEAD
-# shot_game
-=======
-# shooting_game
->>>>>>> 1bba07991cd4e1a0bb731d2e8daef56428a8f95e
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 휠체어 트레드밀 연동 미니게임 개발 
+### 1. 중점사항
+- 가장 기초적인 게임 구현 후 개발 중인 휠체어 전용센서와의 연동성을 테스트
+- 그래픽 고도화 및 다양한 이벤트 추가 예정
